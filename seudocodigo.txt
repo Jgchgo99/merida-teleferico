@@ -141,7 +141,7 @@ total:=0;
     escribir('---------------------------------------------------------------------------------------------------------------------');
     escribir('Nombre: ' ,nb ,' ', ap);
     escribir('Cedula: ',cd:10:0);
-   case opc1 of
+   segun opc1 hacer
    1:escribir('Estacion: ', et01);
    2:escribir('Estacion: ', et02);
    3:escribir('Estacion: ', et03);
